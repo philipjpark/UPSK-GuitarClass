@@ -11,5 +11,8 @@ public class ElectricGuitar implements Guitars {
         public void price() {
             System.out.println("It depends on the type.");
         }
+        public void style() {
+            System.out.println("It depends on the style of music."); 
+        }
    
 }
